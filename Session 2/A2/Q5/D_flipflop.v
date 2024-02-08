@@ -1,0 +1,15 @@
+module D_flipflop (D, E, CLK, Q);
+
+	input  D, E, CLK;
+	output reg Q;
+
+	always @( posedge CLK) begin
+		if(E) begin
+			Q <= D;
+		end
+		else begin
+			Q <= Q;
+		end
+	end
+
+endmodule

@@ -1,0 +1,15 @@
+module Four_Bit_Encoder_Second_implementation (In,Out);
+	input      [3:0] In;
+	output reg [1:0] Out;
+
+	always@(In) begin
+		if(IN === 4'b1xxx)
+			Out = 2'b11;
+		else if(IN[2] == 1)
+			Out = 2'b10;
+		else if(IN[1] == 1)
+			Out = 2'b01;
+		else 
+			Out = 2'b00;
+	end
+endmodule
