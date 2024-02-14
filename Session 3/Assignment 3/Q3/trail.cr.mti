@@ -1,8 +1,0 @@
-{E:/Courses/Digital IC Design/Codes/Session 3/Assignment 3/Q5/Sequential_Logic_Element.v} {1 {vlog -work work -vopt -stats=none {E:/Courses/Digital IC Design/Codes/Session 3/Assignment 3/Q5/Sequential_Logic_Element.v}
-QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module Sequential_Logic_Element
-
-Top level modules:
-	Sequential_Logic_Element
-
-} {} {}}
